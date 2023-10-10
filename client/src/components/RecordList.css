@@ -1,0 +1,80 @@
+/* RecordList.css */
+
+.record-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-button {
+    margin-top: 10px;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4977bb;
+    
+    font-family: 'josafin-sans', sans-serif; /* Replace 'Your Font Name' with the desired font-family */
+    font-size: 20px; /* Adjust the font size as needed */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text horizontally */
+  }
+
+  .text-box {
+    width: 100%; /* Set the width as needed */
+    margin-bottom: 10px; /* Add spacing between the text box and button */
+  }
+  
+  /* Style for the add button */
+  .add-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+  .horizontal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
